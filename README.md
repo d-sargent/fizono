@@ -23,6 +23,7 @@ As a design practitioner, David is interested in how creative practice can engag
 
 **October 2026. Version 0.3**
 * [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Google Fonts Latin Plus](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Vietnamese](https://github.com/googlefonts/glyphsets) Character Set completed
 * Name changed from _Hopium_ to _Hope Mono_
 

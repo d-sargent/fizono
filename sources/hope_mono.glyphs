@@ -2,7 +2,7 @@
 .appVersion = "4108";
 .formatVersion = 4;
 DisplayStrings = (
-"ℓarft",
+"-–—_",
 y,
 "+−×>±~¬^∅∞∫Ω∆20ℓ∏∑√",
 "ð∂+6oO",
@@ -10,6 +10,8 @@ y,
 "æ",
 "⃁",
 "⟨⟩{}",
+"low-contrast",
+"-–—_−",
 );
 axes = (
 {
@@ -192,6 +194,15 @@ name = Uppercase;
 );
 customParameters = (
 {
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = isFixedPitch;
 value = 1;
 },
@@ -223,6 +234,14 @@ feature ordn;
 feature case;
 feature ss01;
 feature ss02;
+feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature tnum;
+feature zero;
 ";
 tag = aalt;
 },
@@ -297,10 +316,116 @@ tag = locl;
 },
 {
 automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = subs;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+";
+tag = sinf;
+},
+{
+automatic = 1;
+code = "sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+tag = frac;
+},
+{
+automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
 ";
 tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
 },
 {
 automatic = 1;
@@ -328,6 +453,12 @@ sub macroncomb by macroncomb.case;
 sub hookabovecomb by hookabovecomb.case;
 ";
 tag = case;
+},
+{
+automatic = 1;
+code = "sub zero by zero.zero;
+";
+tag = zero;
 },
 {
 automatic = 1;
@@ -44412,7 +44543,7 @@ width = 850;
 {
 color = 1;
 glyphname = hyphen;
-lastChange = "2026-09-21 02:20:13 +0000";
+lastChange = "2026-10-22 01:23:56 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -44435,6 +44566,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(665,231,l),
+(665,406,l),
+(185,406,l),
+(185,231,l),
+);
+},
+);
+width = 850;
+},
+{
+associatedMasterId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+layerId = "3037D7E5-52E3-4D42-BCEF-21FC6BF59210";
+name = "22 Oct 26 at 11:20";
+shapes = (
+{
+closed = 1;
+nodes = (
 (650,241,l),
 (650,376,l),
 (200,376,l),
@@ -44450,7 +44598,7 @@ unicode = 45;
 {
 color = 1;
 glyphname = endash;
-lastChange = "2026-09-21 02:20:15 +0000";
+lastChange = "2026-10-22 01:24:03 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -44473,6 +44621,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(735,231,l),
+(735,406,l),
+(115,406,l),
+(115,231,l),
+);
+},
+);
+width = 850;
+},
+{
+associatedMasterId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+layerId = "3257AC82-45B8-4D64-891F-61E4553410A6";
+name = "22 Oct 26 at 11:20";
+shapes = (
+{
+closed = 1;
+nodes = (
 (730,241,l),
 (730,376,l),
 (120,376,l),
@@ -44488,7 +44653,7 @@ unicode = 8211;
 {
 color = 1;
 glyphname = emdash;
-lastChange = "2026-09-21 02:20:17 +0000";
+lastChange = "2026-10-22 01:24:06 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -44511,6 +44676,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(850,231,l),
+(850,406,l),
+(0,406,l),
+(0,231,l),
+);
+},
+);
+width = 850;
+},
+{
+associatedMasterId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+layerId = "8ACD461D-5C51-432A-91FE-DDCC6122C51B";
+name = "22 Oct 26 at 11:20";
+shapes = (
+{
+closed = 1;
+nodes = (
 (840,241,l),
 (840,376,l),
 (10,376,l),
@@ -44526,7 +44708,7 @@ unicode = 8212;
 {
 color = 1;
 glyphname = underscore;
-lastChange = "2026-09-29 03:47:43 +0000";
+lastChange = "2026-10-22 01:24:09 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -44545,6 +44727,23 @@ width = 850;
 },
 {
 layerId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(790,-220,l),
+(790,-55,l),
+(60,-55,l),
+(60,-220,l),
+);
+},
+);
+width = 850;
+},
+{
+associatedMasterId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+layerId = "DC4FD1DF-4B6D-4811-83D0-E17F00221B7C";
+name = "22 Oct 26 at 11:20";
 shapes = (
 {
 closed = 1;
@@ -63447,6 +63646,7 @@ instanceInterpolations = {
 "673ABB96-B52D-4371-A499-E50FE395CA39" = 0.33333;
 "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D" = 0.66667;
 };
+isBold = 1;
 properties = (
 {
 key = styleNames;
@@ -63526,6 +63726,28 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2026 The Hope Mono Project Authors (https://github.com/d-sargent/hope_mono)";
+},
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "David Sargent";
+},
+);
+},
+{
+key = designerURL;
+value = "https://davidsargent.com.au";
+},
+{
 key = familyNames;
 values = (
 {
@@ -63533,6 +63755,36 @@ language = dflt;
 value = "Hope Mono";
 },
 );
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1";
+},
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Bolt Cutter Type";
+},
+);
+},
+{
+key = manufacturerURL;
+value = "https://boltcuttertype.com";
+},
+{
+key = vendorID;
+value = BOLT;
 },
 );
 unitsPerEm = 1000;

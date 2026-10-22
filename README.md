@@ -2,6 +2,8 @@
 
 _Hope Mono_ is a contemporary, low-contrast geometric sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in characters like M and W.
 
+Featuring six weights, _Hope Mono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It includes several Stylistic Sets with alternate character designs.
+
 ![Sample Image](documentation/HopeGitHubImages.png)
 ![Sample Image](documentation/HopeGitHubImages2.png)
 ![Sample Image](documentation/HopeGitHubImages3.png)

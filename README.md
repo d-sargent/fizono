@@ -10,6 +10,8 @@ Featuring seven weights from Light to Black, _Hope Mono_ supports the full Googl
 ![Sample Image](documentation/HopeGitHubImages4.png)
 ![Sample Image](documentation/HopeGitHubImages5.png)
 ![Sample Image](documentation/HopeGitHubImages6.png)
+![Sample Image](documentation/HopeGitHubImages7.png)
+![Sample Image](documentation/HopeGitHubImages8.png)
 
 
 ## About the Designer

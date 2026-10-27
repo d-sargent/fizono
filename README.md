@@ -4,14 +4,14 @@ _Fizzono_ is a contemporary, low-contrast geometric sans serif designed for disp
 
 Featuring seven weights from Light to Black, _Fizzono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all Indigenous Australian languages and includes several Stylistic Sets with alternate character designs.
 
-![Sample Image](documentation/HopeGitHubImages.png)
-![Sample Image](documentation/HopeGitHubImages2.png)
-![Sample Image](documentation/HopeGitHubImages3.png)
-![Sample Image](documentation/HopeGitHubImages4.png)
-![Sample Image](documentation/HopeGitHubImages5.png)
-![Sample Image](documentation/HopeGitHubImages6.png)
-![Sample Image](documentation/HopeGitHubImages7.png)
-![Sample Image](documentation/HopeGitHubImages8.png)
+![Sample Image](documentation/FizzonoGitHubImages.png)
+![Sample Image](documentation/FizzonoGitHubImages2.png)
+![Sample Image](documentation/FizzonoGitHubImages3.png)
+![Sample Image](documentation/FizzonoGitHubImages4.png)
+![Sample Image](documentation/FizzonoGitHubImages5.png)
+![Sample Image](documentation/FizzonoGitHubImages6.png)
+![Sample Image](documentation/FizzonoGitHubImages7.png)
+![Sample Image](documentation/FizzonoGitHubImages8.png)
 
 
 ## About the Designer

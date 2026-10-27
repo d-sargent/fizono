@@ -2,7 +2,7 @@
 .appVersion = "4108";
 .formatVersion = 4;
 DisplayStrings = (
-"Ɔ",
+"Ṥ",
 "OCƇȻGƓƆ",
 "ĦȽLⱠƟŦɄU",
 "ɃÐɆĦƗꝀȽŁⱣPɌRꞨSɎYƵ
@@ -12,7 +12,8 @@ FIZZONO
 "ƝRⱤ",
 "ŊⱤ",
 yy,
-y,
+"JĴ",
+"Ţ",
 );
 axes = (
 {
@@ -10825,9 +10826,19 @@ unicode = 7724;
 {
 color = 1;
 glyphname = J;
-lastChange = "2026-10-09 02:31:50 +0000";
+lastChange = "2026-10-27 00:38:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (425,0);
+},
+{
+name = top;
+pos = (470,700);
+},
+);
 background = {
 shapes = (
 {
@@ -10867,6 +10878,16 @@ nodes = (
 width = 850;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (425,0);
+},
+{
+name = top;
+pos = (480,700);
+},
+);
 background = {
 shapes = (
 {
@@ -11110,7 +11131,9 @@ width = 850;
 unicode = 74;
 },
 {
+color = 10;
 glyphname = Jcircumflex;
+lastChange = "2026-10-27 00:38:35 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -11119,6 +11142,7 @@ shapes = (
 ref = J;
 },
 {
+pos = (45,0);
 ref = circumflexcomb.case;
 },
 );
@@ -11131,6 +11155,7 @@ shapes = (
 ref = J;
 },
 {
+pos = (55,0);
 ref = circumflexcomb.case;
 },
 );
@@ -16495,7 +16520,9 @@ width = 850;
 unicode = 216;
 },
 {
+color = 10;
 glyphname = Oslashacute;
+lastChange = "2026-10-27 00:43:11 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -19154,8 +19181,9 @@ metricWidth = space;
 unicode = 588;
 },
 {
+color = 1;
 glyphname = Rtail;
-lastChange = "2026-10-26 23:47:02 +0000";
+lastChange = "2026-10-27 00:41:58 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -20699,7 +20727,9 @@ width = 850;
 unicode = 350;
 },
 {
+color = 10;
 glyphname = Scircumflex;
+lastChange = "2026-10-27 00:39:05 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -21264,7 +21294,9 @@ width = 850;
 unicode = 356;
 },
 {
+color = 10;
 glyphname = Tcedilla;
+lastChange = "2026-10-27 00:38:50 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
@@ -23923,14 +23955,30 @@ metricWidth = space;
 unicode = 7804;
 },
 {
+color = 10;
 glyphname = Vturned;
+lastChange = "2026-10-27 00:39:30 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";
+shapes = (
+{
+angle = 180;
+pos = (850,700);
+ref = V;
+},
+);
 width = 850;
 },
 {
 layerId = "90901BFF-A858-4E0F-AFDA-6A48B37F4B9D";
+shapes = (
+{
+angle = 180;
+pos = (850,700);
+ref = V;
+},
+);
 width = 850;
 },
 );

@@ -1,17 +1,17 @@
-# Fizzono
+# Fizono
 
-_Fizzono_ is a contemporary, low-contrast geometric sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in wider characters like the M and W.
+_Fizono_ is a contemporary, low-contrast geometric sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in wider characters like the M and W.
 
-Featuring seven weights from Light to Black, _Fizzono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all Indigenous Australian languages and includes several Stylistic Sets with alternate character designs.
+Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all Indigenous Australian languages and includes several Stylistic Sets with alternate character designs.
 
-![Sample Image](documentation/FizzonoGitHubImages.png)
-![Sample Image](documentation/FizzonoGitHubImages2.png)
-![Sample Image](documentation/FizzonoGitHubImages3.png)
-![Sample Image](documentation/FizzonoGitHubImages4.png)
-![Sample Image](documentation/FizzonoGitHubImages5.png)
-![Sample Image](documentation/FizzonoGitHubImages6.png)
-![Sample Image](documentation/FizzonoGitHubImages7.png)
-![Sample Image](documentation/FizzonoGitHubImages8.png)
+![Sample Image](documentation/FizonoGitHubImages.png)
+![Sample Image](documentation/FizonoGitHubImages2.png)
+![Sample Image](documentation/FizonoGitHubImages3.png)
+![Sample Image](documentation/FizonoGitHubImages4.png)
+![Sample Image](documentation/FizonoGitHubImages5.png)
+![Sample Image](documentation/FizonoGitHubImages6.png)
+![Sample Image](documentation/FizonoGitHubImages7.png)
+![Sample Image](documentation/FizonoGitHubImages8.png)
 
 
 ## About the Designer
@@ -29,7 +29,7 @@ As a design practitioner, David is interested in how creative practice can engag
 * [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Latin Plus](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Vietnamese](https://github.com/googlefonts/glyphsets) Character Set completed
-* Name changed from _Hopium_ to _Fizzono_
+* Name changed from _Hopium_ to _Fizono_
 
 **September 2026. Version 0.2**
 * Base uppercase, lowercase, and numerals completed.

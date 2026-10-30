@@ -1,8 +1,8 @@
 # Fizono
 
-_Fizono_ is a contemporary, low-contrast geometric sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in wider characters like the M and W.
+_Fizono_ is a contemporary, low-contrast monospace sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in wider characters like the M and W.
 
-Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all Indigenous Australian languages and includes several Stylistic Sets with alternate character designs.
+Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all [Indigenous Australian languages](https://github.com/enabling-languages/australian_indigenous/wiki) and includes several Stylistic Sets with alternate character designs.
 
 ![Sample Image](documentation/FizonoGitHubImages.png)
 ![Sample Image](documentation/FizonoGitHubImages2.png)

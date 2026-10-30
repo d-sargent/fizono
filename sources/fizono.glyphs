@@ -24089,8 +24089,9 @@ width = 850;
 unicode = 471;
 },
 {
+color = 10;
 glyphname = Udieresisbelow;
-lastChange = "2026-10-28 05:25:18 +0000";
+lastChange = "2026-10-30 00:40:23 +0000";
 layers = (
 {
 layerId = "673ABB96-B52D-4371-A499-E50FE395CA39";

@@ -29,6 +29,7 @@ As a design practitioner, David is interested in how creative practice can engag
 * [Google Fonts African](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Pan African](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Beyond](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Latin S](https://github.com/koeberlin/Latin-Character-Sets) Character Set completed
 * [Latin M](https://github.com/koeberlin/Latin-Character-Sets) Character Set completed
 * Submitted to [Google Fonts](https://github.com/google/fonts/issues/11209) for consideration
 

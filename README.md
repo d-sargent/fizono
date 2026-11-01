@@ -4,6 +4,7 @@ _Fizono_ is a contemporary, low-contrast monospace sans serif designed for displ
 
 Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all [Indigenous Australian languages](https://github.com/enabling-languages/australian_indigenous/wiki) and includes several Stylistic Sets with alternate character designs.
 
+
 ![Sample Image](documentation/FizonoGitHubImages.png)
 ![Sample Image](documentation/FizonoGitHubImages2.png)
 ![Sample Image](documentation/FizonoGitHubImages3.png)
@@ -24,6 +25,12 @@ As a design practitioner, David is interested in how creative practice can engag
       
 
 ## Changelog
+
+**November 2026. Version 0.4**
+* [Google Fonts African](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Google Fonts Pan African](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Google Fonts Beyond](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Latin M](https://github.com/koeberlin/Latin-Character-Sets) Character Set completed
 
 **October 2026. Version 0.3**
 * [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets) Character Set completed

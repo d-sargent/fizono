@@ -2,7 +2,7 @@
 
 _Fizono_ is a contemporary, low-contrast monospace sans serif designed for display use. Its wide overall proportions distinguish it from typical monospaced designs, minimising the 'crushed' appearance often seen in wider characters like the M and W.
 
-Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, and Vietnamese Character Sets. It supports all [Indigenous Australian languages](https://github.com/enabling-languages/australian_indigenous/wiki) and includes several Stylistic Sets with alternate character designs.
+Featuring seven weights from Light to Black, _Fizono_ supports the full Google Fonts Latin Core, Plus, African, Pan Africa, Beyond, and Vietnamese Character Sets. It supports all [Indigenous Australian languages](https://github.com/enabling-languages/australian_indigenous/wiki) and includes several Stylistic Sets with alternate character designs.
 
 
 ![Sample Image](documentation/FizonoGitHubImages.png)
@@ -12,7 +12,6 @@ Featuring seven weights from Light to Black, _Fizono_ supports the full Google F
 ![Sample Image](documentation/FizonoGitHubImages5.png)
 ![Sample Image](documentation/FizonoGitHubImages6.png)
 ![Sample Image](documentation/FizonoGitHubImages7.png)
-![Sample Image](documentation/FizonoGitHubImages8.png)
 
 
 ## About the Designer
@@ -30,7 +29,9 @@ As a design practitioner, David is interested in how creative practice can engag
 * [Google Fonts African](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Pan African](https://github.com/googlefonts/glyphsets) Character Set completed
 * [Google Fonts Beyond](https://github.com/googlefonts/glyphsets) Character Set completed
+* [Latin S](https://github.com/koeberlin/Latin-Character-Sets) Character Set completed
 * [Latin M](https://github.com/koeberlin/Latin-Character-Sets) Character Set completed
+* Submitted to [Google Fonts](https://github.com/google/fonts/issues/11209) for consideration
 
 **October 2026. Version 0.3**
 * [Google Fonts Latin Core](https://github.com/googlefonts/glyphsets) Character Set completed

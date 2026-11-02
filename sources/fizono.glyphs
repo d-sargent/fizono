@@ -2,11 +2,11 @@
 .appVersion = "4108";
 .formatVersion = 4;
 DisplayStrings = (
-"Here’s a good test word: mammillaria
-Also: Ammunition
-And: David Hemmings",
-"Ắ",
-"ẮẰẲẴẤẦẨẪắằẳẵấầẩẫ",
+"Regulator
+Line hight tester
+ggggggggggggggggg
+ẮẮẮẮẮẮẮẮẮẮẮẮẮẮẮẮẮ
+lllllllllllllllll",
 );
 axes = (
 {
@@ -382,10 +382,6 @@ value = 1;
 {
 name = isFixedPitch;
 value = 1;
-},
-{
-name = "EditView Line Height";
-value = 1300;
 },
 );
 date = "2026-08-06 22:15:19 +0000";
